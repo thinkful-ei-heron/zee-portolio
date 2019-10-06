@@ -4,16 +4,28 @@
     margin: 0;
 }
 
-body {
-    /* background-image: url('https://tinyurl.com/y5n39s3u');
-    background-repeat: no-repeat;
-    background-size: contain, cover; */
+.here {
+    width: 100%;
+    height: 400px;
+    background-image: url("https://tinyurl.com/y5n39s3u");
+    background-size: cover;
+    border: 1px solid black;
 
 }
 
-.background-img {
-    
-    
+body {
+   /* display: flex;
+   margin-left: 5px; */
+}
+
+main {
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center;  */
+}
+
+.hero {
+
 }
 
 nav {
@@ -22,7 +34,7 @@ nav {
    align-items: center;
 }
 
-ul {
+ul, nav-link {
     list-style-type: none;
     margin: 0;
     padding: 0;
