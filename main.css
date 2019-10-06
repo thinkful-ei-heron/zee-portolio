@@ -1,4 +1,39 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
+body {
+    /* background-image: url('https://tinyurl.com/y5n39s3u');
+    background-repeat: no-repeat;
+    background-size: contain, cover; */
+
+}
+
+.background-img {
+    
+    
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: flex;
+
+    padding: 8px;
+}
