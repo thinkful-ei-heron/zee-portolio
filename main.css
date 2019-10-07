@@ -17,15 +17,13 @@ body {
     opacity: 0.9;
 }
 
-
-
 main {
     /* flex-direction: column;
     justify-content: center;
     align-items: center;  */
 }
 
-h1, h3, p {
+h1, h3{
     color: white;
     display: flex;
     flex-direction: center;
@@ -56,16 +54,17 @@ h1 {
     font-size: 20px;
 }
 
-p {
-    line-height: 24px;
-}
-
 .nav-link, a {
    display: flex;
    justify-content: space-evenly;
    font-size: 20px;
    text-decoration: none;
-   
+   padding: 30px;
+}
+
+.nav-link-:hover {
+    color: blue;
+    transform: scale(1.5);
 }
 
 ul, nav-link {
@@ -78,8 +77,15 @@ li {
     float: left;
 }
 
-a {
+.quote-Author {
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
-    padding: 8px;
+#js-quotes {
+    border-color: 1px black;
+    background-color: rgba #575B88;
+
 }
