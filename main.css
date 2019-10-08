@@ -23,6 +23,17 @@ main {
     align-items: center;  */
 }
 
+.hero {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: center;
+    align-content: center;
+}
+
+.zeeQuote {
+    color: white;
+}
+
 h1, h3{
     color: white;
     display: flex;
@@ -40,12 +51,7 @@ h1 {
     font-weight: lighter;
 }
 
-.hero {
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    flex-direction: center;
-    align-content: center;
-}
+
 
 .zeeQuote {
     font-size: 14px;
@@ -57,9 +63,8 @@ h1 {
 .nav-link, a {
    display: flex;
    justify-content: space-evenly;
-   font-size: 20px;
+   font-size: 16px;
    text-decoration: none;
-   padding: 30px;
 }
 
 .nav-link-:hover {
@@ -85,7 +90,11 @@ li {
 }
 
 #js-quotes {
-    border-color: 1px black;
+    border: 1px solid black;
     background-color: rgba #575B88;
 
+}
+
+img {
+    width: 100px;
 }
