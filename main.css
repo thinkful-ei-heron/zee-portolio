@@ -9,6 +9,7 @@ body {
     margin-left: 5px; */
  }
 .background-img {
+    position: static;
     width: 100%;
     height: 300px;
     background-image: url("https://tinyurl.com/y3nqv9mj");
@@ -24,14 +25,11 @@ main {
 }
 
 .hero {
+    position: static;
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: center;
     align-content: center;
-}
-
-.zeeQuote {
-    color: white;
 }
 
 h1, h3{
@@ -58,6 +56,13 @@ h1 {
     font-weight: lighter;
     font-style: italic;
     font-size: 20px;
+    position: static;
+    color: white;
+    padding: 10px;
+    margin-left: 10%;  
+    display: flex;
+    flex-direction: column; 
+    align-content: center;
 }
 
 .nav-link, a {
@@ -75,7 +80,8 @@ h1 {
 ul, nav-link {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 li {
@@ -84,14 +90,24 @@ li {
 
 .quote-Author {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
 }
 
 #js-quotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border: 1px solid black;
-    background-color: rgba #575B88;
+    background-color: #faf3dd;
+    padding: 30px 20px 20px 30px;
+    margin: 30px 20px 20px 20px;
+    height: 300px;
+    line-height: 1.6;
+    font-family: 'Playball', cursive;
+    font-weight: lighter;
 
 }
 
