@@ -10,12 +10,18 @@ const aboutZee = function (obj) {
 //this function will allow user to return to home/top of screen
 const handleReturnHomeButton = function () {
   console.log(handleReturnHomeButton);
-  $('.zee-home').on('click', function (event) {
+  $('.main').on('click', '.zee-home', function (event) {
     event.preventDefault();
   });
-  handleReturnHomeButton();
+  renderStartPage();
 };
 
 const renderStartPage = function () {
-
+  $('main').html (`
+  <h1>Zee Celest</h1>
+  <form class="launchStartPage">
+   <button type="submit" class="generateStartButton">Meet Zee</button>
+  </form>
+  <h2>WEB DEVELOPER</h2>`
+    ),
 }

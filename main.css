@@ -137,7 +137,7 @@ img {
    max-inline-size: 20px;
 }
 
-.contact ul {
+#contact ul {
     list-style: none;
 }
 .zee-home {
@@ -155,8 +155,5 @@ img {
 #contact img {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    align-content: center;
-    list-style: none;
     width: 35px;
 }
