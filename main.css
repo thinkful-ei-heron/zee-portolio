@@ -137,6 +137,9 @@ img {
    max-inline-size: 20px;
 }
 
+.contact ul {
+    list-style: none;
+}
 .zee-home {
     display: flex;
     flex-direction: row;
@@ -149,3 +152,11 @@ img {
     padding: 10px;
 }
 
+#contact img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+    width: 35px;
+}

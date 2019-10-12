@@ -19,5 +19,6 @@ const zeeProjects = [
 
 
 export default {
+  zeeProjects
 
 };

@@ -9,6 +9,13 @@ const aboutZee = function (obj) {
 
 //this function will allow user to return to home/top of screen
 const handleReturnHomeButton = function () {
-
+  console.log(handleReturnHomeButton);
+  $('.zee-home').on('click', function (event) {
+    event.preventDefault();
+  });
+  handleReturnHomeButton();
 };
 
+const renderStartPage = function () {
+
+}
