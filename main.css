@@ -105,7 +105,6 @@ h2 {
 
 img {
     width: 200px;
-    height: 400px;
     margin-bottom: 20px;
 }
 
@@ -136,10 +135,17 @@ img {
    flex-direction: row;
    align-items: flex-end;
    max-inline-size: 20px;
-
-    
 }
 
-li, a {
-
+.zee-home {
+    display: flex;
+    flex-direction: row;
+    align-content: flex end;
+    align-items: flex-end;
+    float: right;
+    font-family: 'Playball', cursive;
+    font-size: 14px;
+    border-radius: 100%;
+    padding: 10px;
 }
+
