@@ -6,6 +6,7 @@
 
 body {
    display: flex;
+   flex-direction: column;
    padding: 20px;
    border-style: ridge;
    margin: 10px 10px 10px 10px;
@@ -20,7 +21,7 @@ body {
      margin: auto;
      margin-top: 20px;
      font-family: 'Playball', cursive;
-     font-size: 70px;
+     font-size: 50px;
  }
 
  h3 {
@@ -34,7 +35,7 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    line-height: 2.0;
+    line-height: 1.8;
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     border-bottom-style: ridge;
@@ -43,6 +44,10 @@ body {
 .zeeQuote {
     font-size: 14px;
     font-style: italic;
+}
+
+nav {
+    border-bottom-style: ridge;
 }
 
 .nav-link, a {
@@ -55,22 +60,10 @@ body {
    color: black;
    font-weight: lighter;
    list-style-type: none; 
+   text-align: center;
 }
 
-/* 
-.nav-link {
-    list-style-type: none;
-    margin: 0;
-    padding: 30px;
-    font-family: 'Poppins', sans-serif;
-    color: black;
-    font-weight: bold;
-    border-bottom-style: groove;
-
-} */
-
-li {
-    float: left;
+.quotes {
 }
 
 .quote-Author {
@@ -85,6 +78,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 14px;
     border: 1px solid black;
     background-color: #faf3dd;
     padding: 30px 30px 30px 30px;
@@ -93,14 +87,59 @@ li {
     line-height: 1.6;
     font-family: 'Playball', cursive;
     font-weight: lighter;
-    margin-bottom: 80px;
-    border-radius: 10%
-
+    margin-bottom: 70px;
+    border-radius: 10%;
 }
+
 #about {
     border-top-style: groove;
-    padding: 30px;
+    border-bottom-style: groove;
+    padding: 20px;
 }
+
+h2 {
+    font-family: 'Playball', cursive;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
 img {
-    width: 100px;
+    width: 200px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.zee-bio {
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.tab { margin-left: 10px; }
+
+#projects {
+    border-bottom-style: groove;
+    padding: 20px;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+#contact {
+    border-bottom-style: groove;
+    padding: 20px;  
+   
+}
+
+.contact li {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-end;
+   max-inline-size: 20px;
+
+    
+}
+
+li, a {
+
 }
