@@ -20,8 +20,12 @@ const renderStartPage = function () {
   $('main').html (`
   <h1>Zee Celest</h1>
   <form class="launchStartPage">
-   <button type="submit" class="generateStartButton">Meet Zee</button>
+  <a accesskey="home" id="home" href="../index.html">Home<\/a>
   </form>
   <h2>WEB DEVELOPER</h2>`
     ),
+}
+
+function handleNewPageLoad () {
+  renderStartPage();
 }

@@ -64,6 +64,7 @@ nav {
 }
 
 .quotes {
+    border-bottom-style: groove;
 }
 
 .quote-Author {
@@ -92,9 +93,11 @@ nav {
 }
 
 #about {
-    border-top-style: groove;
-    border-bottom-style: groove;
+    
     padding: 20px;
+    margin-bottom: 20px;
+    border-top-style: groove;
+   
 }
 
 h2 {
@@ -117,15 +120,15 @@ img {
 .tab { margin-left: 10px; }
 
 #projects {
-    border-bottom-style: groove;
     padding: 20px;
     line-height: 1.6;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
+    border-bottom-style: groove;
+    border-top-style: groove;
 }
 
 #contact {
-    border-bottom-style: groove;
     padding: 20px;  
    
 }
@@ -140,7 +143,7 @@ img {
 #contact ul {
     list-style: none;
 }
-.zee-home {
+#home {
     display: flex;
     flex-direction: row;
     align-content: flex end;
@@ -150,6 +153,7 @@ img {
     font-size: 14px;
     border-radius: 100%;
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 #contact img {
