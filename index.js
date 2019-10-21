@@ -20,7 +20,7 @@ const renderStartPage = function () {
   $('main').html (`
   <h1>Zee Celest</h1>
   <form class="launchStartPage">
-  <a accesskey="home" id="home" href="../index.html">Home<\/a>
+  
   </form>
   <h2>WEB DEVELOPER</h2>`
     ),
