@@ -53,9 +53,9 @@ nav {
 
 .nav-link, a {
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    justify-content: space-evenly;
-   font-size: 38px;
+   font-size: 40px;
    text-decoration: none;
    padding: 10px;
    font-family: 'Playball', cursive;
@@ -76,7 +76,8 @@ nav {
     text-align: center;
     line-height: 1.7;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
+    padding: 20px;
 }
 
 #js-quotes {
@@ -84,14 +85,14 @@ nav {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    font-size: 35px;
+    font-size: 20px;
     border: 1px solid black;
     background-color: #faf3dd;
     padding: 10px 10px 10px 10px;
     margin: 50px 10px 10px 10px;
-    height: 200px;
+    height: 250px;
     line-height: 1.6;
-    font-family: 'Playball', cursive;
+    font-family: 'Poppins', sans-serif;
     font-weight: lighter;
     margin-bottom: 40px;
     border-radius: 10%;
@@ -121,19 +122,22 @@ img {
 .zee-bio p {
     line-height: 1.7;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-
-}
+    font-size: 28px;
+    }
 
 /* .tab { margin-left: 10px; } */
 
 #projects {
     padding: 20px;
-    line-height: 1.6;
+    line-height: 1.7;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 28px;
     /* border-bottom-style: groove; */
     border-top-style: groove;
+}
+
+#projects ul {
+    font-size: 28px;
 }
 
 #contact {
@@ -151,22 +155,19 @@ img {
 #contact ul {
     list-style: none;
 }
+
 #home {
-    /* display: flex; */
-    /* flex-direction: row;
-    align-content: flex end; */
-    /* align-items: flex-end; */
+    margin-top: 20px;
+    font-size: 24px;
     font-family: 'Playball', cursive;
-    font-size: 16px;
     padding: 10px;
     margin-bottom: 10px;
-    border-radius: 50%;
 }
 
 #contact img {
     display: flex;
     flex-direction: column;
-    width: 35px;
+    width: 50px;
 }
 
 .project li {
@@ -179,13 +180,22 @@ h4 {
     text-decoration: underline;
     font-family: 'Playball', cursive;
     font-weight: lighter;
-    font-size: 24px;
+    font-size: 30px;
+    letter-spacing: 0.2em;
 }
 
 .zee-quizapp {
    margin-top: 20px;
 }
 
+.liveAppLink a {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    font-size: 30px;
+    text-decoration: underline;
+    letter-spacing: 0.2em;
+}
 @media screen and (min-width: 700px) {
     body {
         display: flex;
@@ -194,6 +204,10 @@ h4 {
         border-style: ridge;
         margin: 20px 20px 20px 20px;
         }
+    .nav-link, a {
+        display: flex;
+        flex-direction: row;
+    }
     #js-quotes {
         padding: 10px 10px 10px 10px;
         margin-left: 12%;
@@ -213,7 +227,26 @@ h4 {
         display: flex;
         justify-content: space-evenly;
         
-    }
-            
+    }       
 }
 
+@media screen and (min-width: 1600px) {
+    #js-quotes {
+        border-radius: 5%;
+        padding: 10px 10px 10px 10px;
+        margin-left: 12%;
+        height: 200px;
+        width: 80%;
+        }
+
+    img {
+        display: flex;
+        margin-left: 40%;
+        width: 300px;
+        margin-bottom: 20px;
+        }
+
+   .zee-quizapp {
+       margin-left: 0;
+   }
+}
