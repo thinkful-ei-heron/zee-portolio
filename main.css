@@ -20,14 +20,14 @@ body {
      margin: auto;
      margin-top: 20px;
      font-family: 'Playball', cursive;
-     font-size: 50px;
+     font-size: 80px;
  }
 
  h3 {
      font-family: 'Poppins', sans-serif;
      margin-bottom: 10px;
      padding: 10px;
-     font-size: 18px;
+     font-size: 28px;
  }
 
 .bannerHeading {
@@ -42,7 +42,7 @@ body {
 }
 
 .zeeQuote {
-    font-size: 18px;
+    font-size: 24px;
     font-style: italic;
     margin-bottom: 10px;
 }
@@ -55,7 +55,7 @@ nav {
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
-   font-size: 20px;
+   font-size: 38px;
    text-decoration: none;
    padding: 10px;
    font-family: 'Playball', cursive;
@@ -74,8 +74,9 @@ nav {
     justify-content: flex-end;
     align-items: flex-end;
     text-align: center;
-    line-height: 1.6;
+    line-height: 1.7;
     font-family: 'Poppins', sans-serif;
+    font-size: 20px;
 }
 
 #js-quotes {
@@ -83,7 +84,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    font-size: 16px;
+    font-size: 35px;
     border: 1px solid black;
     background-color: #faf3dd;
     padding: 10px 10px 10px 10px;
@@ -107,6 +108,7 @@ nav {
 h2 {
     font-family: 'Playball', cursive;
     font-weight: lighter;
+    font-size: 40px;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -193,34 +195,25 @@ h4 {
         margin: 20px 20px 20px 20px;
         }
     #js-quotes {
-        font-size: 18px;
         padding: 10px 10px 10px 10px;
-        margin-left: 14%;
+        margin-left: 12%;
         height: 200px;
-        width: 70%;
+        width: 80%;
         }
     h2 {
         margin-bottom: 30px;
-        font-size: 30px;
-        }
-    .nav-link, a {
-        font-size: 30px;
-        }
-    .zee-quote {
-        font-size: 30px;
-        } 
+    }
     img {
             display: flex;
             margin-left: 30%;
             width: 200px;
             margin-bottom: 20px;
         }
-    #contact img {
+    #contact ul {
         display: flex;
-        flex-direction: row;
+        justify-content: space-evenly;
         
-        width: 23px;
+    }
             
-        }
 }
 
