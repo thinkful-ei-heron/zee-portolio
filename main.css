@@ -20,14 +20,14 @@ body {
      margin: auto;
      margin-top: 20px;
      font-family: 'Playball', cursive;
-     font-size: 30px;
+     font-size: 50px;
  }
 
  h3 {
      font-family: 'Poppins', sans-serif;
      margin-bottom: 10px;
      padding: 10px;
-     font-size: 12px;
+     font-size: 18px;
  }
 
 .bannerHeading {
@@ -42,7 +42,7 @@ body {
 }
 
 .zeeQuote {
-    font-size: 12px;
+    font-size: 18px;
     font-style: italic;
     margin-bottom: 10px;
 }
@@ -55,7 +55,7 @@ nav {
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
-   font-size: 16px;
+   font-size: 20px;
    text-decoration: none;
    padding: 10px;
    font-family: 'Playball', cursive;
@@ -83,7 +83,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
     border: 1px solid black;
     background-color: #faf3dd;
     padding: 10px 10px 10px 10px;
@@ -107,7 +107,7 @@ nav {
 h2 {
     font-family: 'Playball', cursive;
     font-weight: lighter;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -119,7 +119,7 @@ img {
 .zee-bio p {
     line-height: 1.7;
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 
 }
 
@@ -129,7 +129,7 @@ img {
     padding: 20px;
     line-height: 1.6;
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     /* border-bottom-style: groove; */
     border-top-style: groove;
 }
@@ -155,7 +155,7 @@ img {
     align-content: flex end; */
     /* align-items: flex-end; */
     font-family: 'Playball', cursive;
-    font-size: 14px;
+    font-size: 16px;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 50%;
@@ -177,7 +177,7 @@ h4 {
     text-decoration: underline;
     font-family: 'Playball', cursive;
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .zee-quizapp {
@@ -188,11 +188,39 @@ h4 {
     body {
         display: flex;
         flex-direction: column;
-        padding: 20px;
+        padding: 30px;
         border-style: ridge;
-        margin: 10px 10px 10px 10px;
-     
-      }
-
+        margin: 20px 20px 20px 20px;
+        }
+    #js-quotes {
+        font-size: 18px;
+        padding: 10px 10px 10px 10px;
+        margin-left: 14%;
+        height: 200px;
+        width: 70%;
+        }
+    h2 {
+        margin-bottom: 30px;
+        font-size: 30px;
+        }
+    .nav-link, a {
+        font-size: 30px;
+        }
+    .zee-quote {
+        font-size: 30px;
+        } 
+    img {
+            display: flex;
+            margin-left: 30%;
+            width: 200px;
+            margin-bottom: 20px;
+        }
+    #contact img {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 23px;
+            
+        }
 }
 
