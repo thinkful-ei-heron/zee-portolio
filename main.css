@@ -10,7 +10,6 @@ body {
    padding: 20px;
    border-style: ridge;
    margin: 10px 10px 10px 10px;
-
  }
 
  .hero h1 {
@@ -21,13 +20,14 @@ body {
      margin: auto;
      margin-top: 20px;
      font-family: 'Playball', cursive;
-     font-size: 50px;
+     font-size: 30px;
  }
 
  h3 {
      font-family: 'Poppins', sans-serif;
      margin-bottom: 10px;
      padding: 10px;
+     font-size: 12px;
  }
 
 .bannerHeading {
@@ -42,8 +42,9 @@ body {
 }
 
 .zeeQuote {
-    font-size: 14px;
+    font-size: 12px;
     font-style: italic;
+    margin-bottom: 10px;
 }
 
 nav {
@@ -52,8 +53,9 @@ nav {
 
 .nav-link, a {
    display: flex;
+   flex-direction: column;
    justify-content: space-evenly;
-   font-size: 20px;
+   font-size: 16px;
    text-decoration: none;
    padding: 10px;
    font-family: 'Playball', cursive;
@@ -69,8 +71,10 @@ nav {
 
 .quote-Author {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    /* align-items: flex-end; */
+    text-align: center;
     line-height: 1.6;
     font-family: 'Poppins', sans-serif;
 }
@@ -79,12 +83,13 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 14px;
+    text-align: center;
+    font-size: 12px;
     border: 1px solid black;
     background-color: #faf3dd;
-    padding: 30px 30px 30px 30px;
-    margin: 60px 20px 20px 20px;
-    height: 200px;
+    padding: 10px 10px 10px 10px;
+    /* margin: 60px 20px 20px 20px;
+    height: 200px; */
     line-height: 1.6;
     font-family: 'Playball', cursive;
     font-weight: lighter;
@@ -94,13 +99,14 @@ nav {
 
 #about {
     
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 20px;
     border-top-style: groove;
    
 }
 
 h2 {
+    text-align: center;
     font-family: 'Playball', cursive;
     font-weight: lighter;
     margin-bottom: 20px;
@@ -109,12 +115,15 @@ h2 {
 img {
     width: 200px;
     margin-bottom: 20px;
+    display: flex;
+    align-content: center;
 }
 
 .zee-bio {
     line-height: 1.6;
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+    font-size: 12px;
+    /* text-align: center; */
 }
 
 .tab { margin-left: 10px; }
@@ -176,5 +185,17 @@ h4 {
 
 .zee-quizapp {
    margin-top: 20px;
+}
+
+@media screen and (min-width: 700px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border-style: ridge;
+        margin: 10px 10px 10px 10px;
+     
+      }
+
 }
 
