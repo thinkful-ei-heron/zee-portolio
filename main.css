@@ -166,7 +166,7 @@ img {
 
 #contact img {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 50px;
 }
 
@@ -186,6 +186,7 @@ h4 {
 
 .zee-quizapp {
    margin-top: 20px;
+   margin-right: 50%;
 }
 
 .liveAppLink a {
