@@ -190,8 +190,8 @@ h4 {
 
 .liveAppLink a {
     display: flex;
-    justify-content: flex-start;
-    margin-left: 10%;
+    /* justify-content: flex-start;
+    margin-left: 10%; */
     font-size: 30px;
     text-decoration: underline;
     letter-spacing: 0.2em;
