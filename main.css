@@ -196,6 +196,7 @@ h4 {
     text-decoration: underline;
     letter-spacing: 0.2em;
 }
+
 @media screen and (min-width: 700px) {
     body {
         display: flex;
